@@ -1,0 +1,114 @@
+/* Базові стилі для сторінки */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 28px;
+    background-color: white;
+    font-weight: 900; /* Більш жирний текст для HELLO SHOP */
+}
+
+.logo span {
+    font-weight: 900;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+/* Центрування навігаційних посилань */
+.navbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Вирівнювання посилань по центру */
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.Sign-In-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.Sign-Up-btn {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+/* Стилі для секції Hero */
+.hero {
+    display: flex;
+    justify-content: center; /* Вирівнювання тексту по центру */
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-text strong {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.shop-now, .contact-us {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shop-now {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.contact-us {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+/* Стилі футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
